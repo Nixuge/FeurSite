@@ -1,0 +1,29 @@
+.global_wrapper {
+    margin-top: 20px;
+}
+
+.video_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+video {
+    margin: 10px;
+    max-width: 30%;
+    max-height: 30%;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    video {
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    video {
+        max-width: 90%;
+    }
+}
+
