@@ -3,7 +3,8 @@
 }
 
 .video_wrapper {
-    display: flex;
+    align-items: center;
+    display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -11,10 +12,10 @@
 section {
     margin: 10px;
     max-width: 45%;
-    border-radius: 15px;
 }
 
 video {
+    border-radius: 15px;
     max-width: 100%;
     height: auto;
 }
